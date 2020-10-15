@@ -1,0 +1,61 @@
+.aura-fonts {
+  height: 100vh;
+  background-color: #0a4b60;
+  display: flex;
+  justify-content: space-evenly;
+  color: #e0dee0;
+  padding-top: 2rem;
+
+  &-large {
+    font-size: 3rem;
+  }
+
+  &-medium {
+    font-size: 1.8rem;
+  }
+
+  &-small {
+    font-size: 1.2rem;
+  }
+
+  .gotham {
+    &-black {
+      font-family: "Gotham-Black";
+    }
+
+    &-bold {
+      font-family: "Gotham-Bold";
+    }
+
+    &-book {
+      font-family: "Gotham-Book";
+    }
+
+    &-light {
+      font-family: "Gotham-Light";
+    }
+
+    &-medium {
+      font-family: "Gotham-Medium";
+    }
+
+    &-thin {
+      font-family: "Gotham-Thin";
+    }
+
+    &-ultra {
+      font-family: "Gotham-Ultra";
+    }
+
+    &-xlight {
+      font-family: "Gotham-XLight";
+    }
+  }
+}
+
+h4 {
+  font-size: 1.4rem;
+  color: lightcoral;
+  border-bottom: 1px solid #0a4b60;
+  margin: 1rem 0;
+}
